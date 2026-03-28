@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "examplemod",
+  "version": "1.0.0",
+  "name": "Тестовый мод",
+  "description": "Тестовый мод для геномии",
+  "authors": [
+    "EtoYaM"
+  ],
+  "contact": {
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.mod.Main"
+    ]
+  },
+  "mixins": [
+    "example.mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "genomeia": "0.2.*"
+  }
+}
